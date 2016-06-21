@@ -20,7 +20,7 @@ from setuptools import setup, find_packages
 
 
 install_requires = ['redis']
-print find_packages()
+sys.stdout.write("%s\n" % find_packages())
 
 setup(
     name='twiceredis',
